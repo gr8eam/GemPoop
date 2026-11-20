@@ -1,0 +1,12 @@
+GemPoop is a silly arcade game for two thumbs, played with the phone held sideways.
+
+Four apes stand on an old packing crate with their backs to you, and gems plop out of them. Tilt the paddle at the bottom with your thumbs so that each gem bounces up to the frog of the same colour. The frog shoots out its tongue and swallows it.
+
+* Tilt the paddle by moving your thumbs up and down on the two sides of the screen
+* A glowing ring shows which colour the next gem will have
+* Missed gems are deducted from the caught ones after each level; drop below zero credits and the game is over
+* Spend credits between levels on longer tongues, one frog at a time
+* From level 4, red gems appear: a frog that catches one gets its tongue cut back to the original length
+* Interactive tutorial, and Save & exit to continue later
+
+Free software, no ads, no tracking, no network access.

@@ -85,3 +85,15 @@ kör man `python3 tools/embed_sounds.py` för att baka in dem igen.
   senaste release: `releases/latest/download/gempoop-debug.apk`.
 - `design/Main.dc.html` är originalskissen från Claude Design.
 - Appen har inga annonser och ingen spårning, och den använder inget nätverk.
+
+## Utgåvor och F-Droid
+
+- Varje push till `main` ger ett testbygge via GitHub Actions (för Obtainium).
+- En officiell utgåva har fast `versionCode` och `versionName` i `app/build.gradle.kts` och en tagg `release-<versionName>`
+  (nu `release-1.0.0`). F-Droid bygger från den taggen. Ny utgåva: höj båda värdena, lägg till
+  `metadata/en-US/changelogs/<versionCode>.txt`, pusha och sätt taggen när bygget gått igenom.
+- Texterna som visas på F-Droid ligger i `metadata/en-US/`.
+
+## Licens
+
+GPL-3.0-or-later. Se `LICENSE`.
