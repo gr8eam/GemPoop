@@ -14,11 +14,11 @@ val copyWeb by tasks.registering(Copy::class) {
 }
 
 android {
-    namespace = "io.github.skitknasctrl.gempoop"
+    namespace = "com.gr8eam.gempoop"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "io.github.skitknasctrl.gempoop"
+        applicationId = "com.gr8eam.gempoop"
         minSdk = 26
         targetSdk = 35
         // CI skickar -PbuildNumber=<körningsnummer>; testbyggen får då versionen 0.1.0-test.<n>

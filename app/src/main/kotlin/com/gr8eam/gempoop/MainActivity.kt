@@ -1,4 +1,4 @@
-package io.github.skitknasctrl.gempoop
+package com.gr8eam.gempoop
 
 import android.annotation.SuppressLint
 import android.graphics.Color
