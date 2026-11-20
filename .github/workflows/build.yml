@@ -26,6 +26,10 @@ jobs:
       - name: Unit tests and debug APK
         run: ./gradlew --no-daemon -PbuildNumber=${{ github.run_number }} test assembleDebug
 
+      # Samma bygge som F-Droid gör: release utan buildNumber och utan signeringsnyckel
+      - name: Release build as F-Droid does it
+        run: ./gradlew --no-daemon assembleRelease
+
       - name: Collect APK
         run: cp app/build/outputs/apk/debug/app-debug.apk gempoop-debug.apk
 
